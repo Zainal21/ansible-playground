@@ -1,0 +1,8 @@
+[digitalocean]
+178.128.122.132
+178.128.118.258
+68.183.184.41
+
+[all:vars]
+ansible_user=root
+ansible_ssh_private_key_file=~/.ssh/digitalocean.pem
